@@ -1,0 +1,15 @@
+name: Sqlite bug reproduction
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.10.0
+
+      - name: Run reproduction
+        run: ./run.sh

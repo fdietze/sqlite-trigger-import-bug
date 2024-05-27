@@ -1,0 +1,93 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "sqlite-interactive@3.45.2": {
+      "last_modified": "2024-05-10T13:10:33Z",
+      "resolved": "github:NixOS/nixpkgs/d42c1c8d447a388e1f2776d22c77f5642d703da6#sqlite-interactive",
+      "source": "devbox-search",
+      "version": "3.45.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/cx9q8q82cvy9k3xjn8ax7jkq9hi6f1r5-sqlite-interactive-3.45.2-bin",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/bmqj5wfb45y5sdwazrzfrapa7d51v14d-sqlite-interactive-3.45.2-dev"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/pw2qnmcgpc4fsbddw63qmcjpc541r80l-sqlite-interactive-3.45.2"
+            }
+          ],
+          "store_path": "/nix/store/cx9q8q82cvy9k3xjn8ax7jkq9hi6f1r5-sqlite-interactive-3.45.2-bin"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/773rsq6fggk012ys3a1iibf6g5bnwh23-sqlite-interactive-3.45.2-bin",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/g23dnyi4k0rpchjsy92hgzkr59hc460j-sqlite-interactive-3.45.2-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/kd4s19m34csksyglbfn81kg82iaz79sr-sqlite-interactive-3.45.2-dev"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/wa2ri3909ilyciac7bjrl6m8hlv442gq-sqlite-interactive-3.45.2"
+            }
+          ],
+          "store_path": "/nix/store/773rsq6fggk012ys3a1iibf6g5bnwh23-sqlite-interactive-3.45.2-bin"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/ahnbbghwmgy89cyv0bx9mbc9fipy05k8-sqlite-interactive-3.45.2-bin",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/djdfignyijwqd5j0kw2gnq0wbgm35jfv-sqlite-interactive-3.45.2-dev"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/qq00sbbgmf27ks129irpifv06m7vpmzh-sqlite-interactive-3.45.2"
+            }
+          ],
+          "store_path": "/nix/store/ahnbbghwmgy89cyv0bx9mbc9fipy05k8-sqlite-interactive-3.45.2-bin"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/szxnjxm8j6rpa9pn733918ysb1yaa6pd-sqlite-interactive-3.45.2-bin",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/6psisbbas57kr1z6a4rcz5dmya9m6cm5-sqlite-interactive-3.45.2-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/x8bd6z5jzx3lvkz1869n59jkyn0xyy2p-sqlite-interactive-3.45.2-dev"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/l0insia4w8jsxh9fp66bscifzs883jcb-sqlite-interactive-3.45.2"
+            }
+          ],
+          "store_path": "/nix/store/szxnjxm8j6rpa9pn733918ysb1yaa6pd-sqlite-interactive-3.45.2-bin"
+        }
+      }
+    }
+  }
+}
