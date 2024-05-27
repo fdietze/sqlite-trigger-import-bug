@@ -10,6 +10,8 @@ jobs:
 
       - name: Install devbox
         uses: jetify-com/devbox-install-action@v0.10.0
+        with:
+          project-path: good
 
       - name: Run reproduction
         run: ./run.sh
